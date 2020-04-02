@@ -1,0 +1,7 @@
+images:
+  - name: springcloud/spring-cloud-dataflow-server  # used for Kustomize matching
+    newName: spring-cloud-dataflow-server # CHANGE
+    newTag: 2.5.0.BUILD-SNAPSHOT
+resources:
+  - config.yaml
+  - ../../base
